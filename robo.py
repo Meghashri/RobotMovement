@@ -115,8 +115,9 @@ class RoboTest:
 #=============================================================
 
 #Reading using input Json file
-inputdata = json.load(open(sys.argv))
-#inputdata = json.load(open('inputdat.json')) #--> if using a stored file for input json
+#inputdata = json.load(open(sys.argv))
+inputdata = json.load(open('inputdat.json'))
+#--> if using a stored file for input json
 roboObjPresent = False
 roboObject = Robo(0,0, "none")
 
