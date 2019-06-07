@@ -1,5 +1,5 @@
 # RobotMovement
-Simulating robot movement in 2D 
+Simulating robot movement in 2D with mock test framework and a docker file to run like app on container(unit testing)
 
 For Docker container
 sudo docker build --tag roboimage:0.1 .
